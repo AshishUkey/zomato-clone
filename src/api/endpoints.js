@@ -6,6 +6,7 @@ const GET_LOCATIONS = 'getLocations';
 const GET_RESTURANTS = 'getResturants';
 const GET_RESTURANT_DETAILS = 'getResturantDetails';
 const LOGIN = 'LOGIN';
+const BASE_URL = 'https://apitestnode.azurewebsites.net/'
 
 export {
     ADD_FOOD,
@@ -15,6 +16,7 @@ export {
     GET_LOCATIONS,
     GET_RESTURANTS,
     GET_RESTURANT_DETAILS,
-    LOGIN
+    LOGIN,
+    BASE_URL
 }
 
